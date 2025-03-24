@@ -14,9 +14,9 @@ except OSError:
     subprocess.run(["python", "-m", "spacy", "download", "en_core_web_sm"])
     nlp = spacy.load("en_core_web_sm")
 if platform.system() == "Windows":
-    BASE_DIR = Path("M:/sem8/owais_project")
+    BASE_DIR = Path("D:/owais_project")
 else:
-    BASE_DIR = Path("/mount/src/owais_project2")
+    BASE_DIR = Path("/mount/src/owais_project")
 
 
 # Load dataset
